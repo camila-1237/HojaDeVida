@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f8fffd;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background: #f4d4c0;
+}
+
+.name .content {
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    left: 25%;
+}
+.name .img {
+    position: absolute;
+    top: 18%;
+    right: 1%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    transform: skewy(5deg);
+    overflow: hidden;
+}
+
+.name .content .p-1 {
+    color: #fff8f0;
+    font-family:  'Golos Text', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.name .content .p-2 {
+    color: #fff8f0;
+    font-family:  'Golos Text', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.hoja {
+    width: 90%;
+    height: auto;
+    background: #f4d4c0;
+    margin: 5% auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.tituloseccion {
+    color: #ffffff;
+    font-family: 'Golos Text', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 4px #fff8f0 solid;
+}
+
+.hoja  .tituloinfo {
+    color: #2b1803;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.hoja .informacion {
+    color: #151240;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
